@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "yarn-licenses",
+  "version": "1.0.0",
+  "bin": "main.js",
+  "scripts": {
+    "format": "prettier -w ."
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  },
+  "dependencies": {
+    "console-log-tree": "^1.2.1",
+    "execa": "^8.0.1",
+    "object.groupby": "^1.0.1",
+    "read-pkg": "^8.1.0",
+    "read-pkg-up": "^10.1.0"
+  }
+}
