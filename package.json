@@ -3,11 +3,14 @@
   "name": "yarn-licenses",
   "version": "1.0.0",
   "bin": "main.js",
+  "license": "MIT",
   "scripts": {
-    "format": "prettier -w ."
+    "format": "prettier -w .",
+    "lint": "tsc --noEmit"
   },
   "devDependencies": {
-    "prettier": "^3.0.3"
+    "prettier": "^3.0.3",
+    "typescript": "^5.4.5"
   },
   "dependencies": {
     "console-log-tree": "^1.2.1",
